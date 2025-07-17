@@ -1,3 +1,4 @@
+import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.use('TkAgg')  # Use TkAgg instead of the Qt backend
 from matplotlib.animation import FuncAnimation, PillowWriter
