@@ -25,8 +25,8 @@ ax.set_title("RL Pursuer Chasing Target")
 
 p_line, = ax.plot([], [], 'b-', label="Pursuer")
 t_line, = ax.plot([], [], 'r-', label="Target")
-p_dot, = ax.plot([], [], 'bo")
-t_dot, = ax.plot([], [], 'ro")
+p_dot, = ax.plot([], [], 'bo')
+t_dot, = ax.plot([], [], 'ro')
 ax.legend()
 
 def update(frame):
