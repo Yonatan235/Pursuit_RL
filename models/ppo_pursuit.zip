@@ -1,1 +1,3 @@
+from stable_baselines3 import PPO
 
+model = PPO.load("models/ppo_pursuit")
