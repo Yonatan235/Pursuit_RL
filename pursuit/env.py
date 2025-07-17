@@ -3,6 +3,10 @@ from gymnasium import spaces
 import numpy as np
 
 class PursuitEnv(gym.Env):
+    """
+    Custom environment where a pursuer tracks a target moving in 2D.
+    The pursuer observes and decides where to move based on RL policy.
+    """
     def __init__(self, T=10.0, vp=4.5, sigma=1.5, max_obs=10, catch_radius=0.5, dt=0.005,
                  levy_walk=False, levy_mu=2.0, levy_scale=0.05):
         super().__init__()
