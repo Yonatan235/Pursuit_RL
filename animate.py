@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
 from stable_baselines3 import PPO
 from pursuit.env import PursuitEnv
+import numpy as np
 
 model = PPO.load("models/ppo_pursuit")
 env = PursuitEnv()
