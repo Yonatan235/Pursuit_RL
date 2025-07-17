@@ -5,4 +5,4 @@ if __name__ == "__main__":
     env = PursuitEnv()
     model = PPO("MlpPolicy", env, verbose=1)
     model.learn(total_timesteps=20000)
-    model.save("models/ppo_pursuit")
+    model.save("models/ppo_pursuit.zip")
