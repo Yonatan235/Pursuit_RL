@@ -3,7 +3,7 @@ Comparisons are made to untrained/stationary strategies.
 
 ## Features
 
-- Brownian motion + Lévy walk targets
+- Brownian motion, Lévy walk, and other dynamic targets
 - Discrete observations
 - Reinforcement Learning environment (OpenAI Gym API)
 - PPO training (via Stable-Baselines3)
