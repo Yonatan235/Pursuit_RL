@@ -1,4 +1,4 @@
-Simulates and trains a reinforcement learning agent to chase a moving target under different observation/tracking strategies with the aim of catching the target.
+Simulates and trains a reinforcement learning agent to chase a moving target under different observation/tracking strategies with the aim of catching the target (being within its catch radius).
 Comparisons are made to untrained/stationary strategies. 
 
 ## Features
