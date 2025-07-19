@@ -12,5 +12,7 @@ Comparisons are made to untrained/stationary strategies.
 ## Usage
 
 pip install -r requirements.txt
+
 python train.py       # Train the RL agent
+
 python animate.py     # Visualize trained agent behavior
