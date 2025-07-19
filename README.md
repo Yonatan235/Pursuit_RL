@@ -8,3 +8,9 @@ Comparisons are made to untrained/stationary strategies.
 - Reinforcement Learning environment (OpenAI Gym API)
 - PPO training (via Stable-Baselines3)
 - GIF visualizations
+
+## Usage
+
+pip install -r requirements.txt
+python train.py       # Train the RL agent
+python animate.py     # Visualize trained agent behavior
