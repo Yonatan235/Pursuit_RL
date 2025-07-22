@@ -3,6 +3,7 @@ import numpy as np
 def simulate_brownian_pursuit(T=20.0, dt=0.01, sigma=1.0, vp=1.5, obs_times=None):
     """
     Simulates a 2D Brownian target and a pursuer attempting to track it.
+    It takes observation times as input. 
     """
     # Total number of steps
     N = int(T / dt)
