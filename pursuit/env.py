@@ -8,7 +8,7 @@ class PursuitEnv(gym.Env):
     The RL agent picks the pursuer's observation and decision time with a fixed budget of observations.
     """
 
-    def __init__(self, T=10.0, vp=1.5, sigma=0.5, max_obs=10, catch_radius=0.25, dt=0.005,
+    def __init__(self, T=10.0, vp=1.5, sigma=0.5, max_obs=10, catch_radius=0.5, dt=0.005,
                  levy_walk=False, levy_mu=2.0, levy_scale=0.05):
         super().__init__()
 
